@@ -36,8 +36,8 @@
 		fill-rule: evenodd;
 		stroke-linecap: round;
 		stroke-linejoin: round;
-		/* background: #101928;
-		fill: RGBA(16, 25, 40, 0); */
+		/* background: #101928; */
+	    	fill: #0d1117;
         }
         svg {
   -webkit-animation: svg-fill 1000ms ease-in-out 1750ms both;
