@@ -1,0 +1,362 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="65 50 120 150" width="94" height="140">
+    <g class="follow">
+			<polygon class="e-follow-c" stroke="#DD07F4" points="69.379 183.538875 69.37525 79.598875 136.879 40.625125 136.8765 58.721375 91.8765 84.781375 91.879 109.735125 124.379 91.045125 124.379 108.550003 91.8765 127.281375 91.879 149.861375 136.879 123.837625 136.88025 144.471375"></polygon>
+			<polygon class="e-follow-b7" stroke="#DD07F4" points="181.882625 170.317383 136.878875 144.336133 136.878875 123.838 181.882625 149.8805"></polygon>
+			<polygon class="e-follow-b6" stroke="#DD07F4" points="136.882625 175.76425 91.878875 149.783 136.878875 123.838 181.882625 149.8805"></polygon>
+			<polygon class="e-follow-b5" stroke="#DD07F4" points="169.340125 134.589996 124.367625 108.550003 124.367625 91.0255 169.340125 117.0155"></polygon>
+			<polygon class="e-follow-b4" stroke="#DD07F4" points="136.882625 135.76425 91.878875 109.783 124.367625 91.0255 169.340125 117.0155"></polygon>
+			<polygon class="e-follow-b3" stroke="#DD07F4" points="181.88025 84.7600021 136.879 58.7200012 136.879 40.624875 181.88025 66.588625"></polygon>
+			<polygon class="e-follow-b2" stroke="#4407F4" points="114.379 105.579875 69.37525 79.598625 69.379 183.538625 114.38025 209.503625"></polygon>
+			<polygon class="e-follow-b1" stroke="#4407F4" points="114.379 105.579875 69.37525 79.598625 136.879 40.624875 181.88025 66.588625"></polygon>
+			<polygon class="e-follow-a" stroke="#4407F4" points="114.382625 209.581375 114.378875 105.640125 181.882625 66.666375 181.880005 84.763875 136.880125 110.823875 136.882625 135.777625 169.382625 117.087625 169.382625 134.589996 136.880125 153.323875 136.882625 175.902625 181.882625 149.880125 181.883875 170.512625"></polygon>
+			<polygon class="e-start-c" stroke="#8A9EA3" points="69.379 183.538875 69.37525 79.598875 136.879 40.625125 136.8765 58.721375 91.8765 84.781375 91.879 109.735125 124.379 91.045125 124.379 108.550003 91.8765 127.281375 91.879 149.861375 136.879 123.837625 136.88025 144.471375"></polygon>
+		</g>
+		<g class="start">
+			<polygon class="e-start-c" stroke="#8A9EA3" points="69.379 183.538875 69.37525 79.598875 136.879 40.625125 136.8765 58.721375 91.8765 84.781375 91.879 109.735125 124.379 91.045125 124.379 108.550003 91.8765 127.281375 91.879 149.861375 136.879 123.837625 136.88025 144.471375"></polygon>
+			<polygon class="e-start-b7" stroke="#8A9EA3" points="181.882625 170.317383 136.878875 144.336133 136.878875 123.838 181.882625 149.8805"></polygon>
+			<polygon class="e-start-b6" stroke="#8A9EA3" points="136.882625 175.76425 91.878875 149.783 136.878875 123.838 181.882625 149.8805"></polygon>
+			<polygon class="e-start-b5" stroke="#8A9EA3" points="169.340125 134.589996 124.367625 108.550003 124.367625 91.0255 169.340125 117.0155"></polygon>
+			<polygon class="e-start-b4" stroke="#8A9EA3" points="136.882625 135.76425 91.878875 109.783 124.367625 91.0255 169.340125 117.0155"></polygon>
+			<polygon class="e-start-b3" stroke="#8A9EA3" points="181.88025 84.7600021 136.879 58.7200012 136.879 40.624875 181.88025 66.588625"></polygon>
+			<polygon class="e-start-b2" stroke="#F9C99B" points="114.379 105.579875 69.37525 79.598625 69.379 183.538625 114.38025 209.503625"></polygon>
+			<polygon class="e-start-b1" stroke="#F9C99B" points="114.379 105.579875 69.37525 79.598625 136.879 40.624875 181.88025 66.588625"></polygon>
+			<polygon class="e-start-a" stroke="#F9C99B" points="114.382625 209.581375 114.378875 105.640125 181.882625 66.666375 181.880005 84.763875 136.880125 110.823875 136.882625 135.777625 169.382625 117.087625 169.382625 134.589996 136.880125 153.323875 136.882625 175.902625 181.882625 149.880125 181.883875 170.512625"></polygon>
+		</g>
+
+    <style>
+        .start *,
+        .follow * {
+            opacity: 0;
+        }
+        svg {
+		stroke-width: 2;
+		fill-rule: evenodd;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+		/* background: #101928;*/
+		fill: #0d1117;
+        }
+
+svg {
+  -webkit-animation: svg-fill 1000ms ease-in-out 1750ms both;
+          animation: svg-fill 1000ms ease-in-out 1750ms both;
+}
+svg .e-start-a,
+svg .e-follow-a,
+svg .e-start-c,
+svg .e-follow-c {
+  stroke-dashoffset: 542.64;
+  stroke-dasharray: 542.64;
+  -webkit-animation: e-a1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: e-a1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .e-start-a {
+  -webkit-animation-duration: 1800ms;
+          animation-duration: 1800ms;
+  -webkit-animation-delay: 650ms;
+          animation-delay: 650ms;
+}
+svg .e-follow-a {
+  -webkit-animation-duration: 1500ms;
+          animation-duration: 1500ms;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+svg .e-start-c {
+  -webkit-animation-duration: 800ms;
+          animation-duration: 800ms;
+  -webkit-animation-delay: 1400ms;
+          animation-delay: 1400ms;
+}
+svg .e-follow-c {
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 1250ms;
+          animation-delay: 1250ms;
+}
+svg .e-start-b1,
+svg .e-follow-b1 {
+  stroke-dashoffset: 259.82;
+  stroke-dasharray: 259.82;
+  -webkit-animation: e-b1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: e-b1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .e-start-b2,
+svg .e-follow-b2 {
+  stroke-dashoffset: 311.79;
+  stroke-dasharray: 311.79;
+  -webkit-animation: e-b2 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: e-b2 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .e-start-b3,
+svg .e-follow-b3 {
+  stroke-dashoffset: 140.22;
+  stroke-dasharray: 140.22;
+  -webkit-animation: e-b3 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: e-b3 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .e-start-b4,
+svg .e-follow-b4 {
+  stroke-dashoffset: 178.91;
+  stroke-dasharray: 178.91;
+  -webkit-animation: e-b4 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: e-b4 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .e-start-b5,
+svg .e-follow-b5 {
+  stroke-dashoffset: 178.91;
+  stroke-dasharray: 178.91;
+  -webkit-animation: e-b5 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: e-b5 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .e-start-b6,
+svg .e-follow-b6 {
+  stroke-dashoffset: 207.82;
+  stroke-dasharray: 207.82;
+  -webkit-animation: e-b6 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: e-b6 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .e-start-b7,
+svg .e-follow-b7 {
+  stroke-dashoffset: 144.9;
+  stroke-dasharray: 144.9;
+  -webkit-animation: e-b7 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: e-b7 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg polygon[class^=e-start-b] {
+  -webkit-animation-duration: 800ms;
+          animation-duration: 800ms;
+}
+svg polygon[class^=e-follow-b] {
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+}
+svg polygon[class^=e-start-b]:nth-child(n+2) {
+  -webkit-animation-delay: 1150ms;
+          animation-delay: 1150ms;
+}
+svg polygon[class^=e-follow-b]:nth-child(n+2) {
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+}
+svg .e-start-b1,
+svg .e-start-b2 {
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+}
+svg .e-follow-b1,
+svg .e-follow-b2 {
+  -webkit-animation-delay: 750ms;
+          animation-delay: 750ms;
+}
+
+@-webkit-keyframes e-b7 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 144.9;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes e-b7 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 144.9;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes e-b6 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 207.82;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes e-b6 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 207.82;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes e-b5 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 139;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes e-b5 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 139;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes e-b4 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: -178.91;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes e-b4 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: -178.91;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes e-b3 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 140.22;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes e-b3 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 140.22;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes e-b2 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 311.79;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes e-b2 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 311.79;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes e-b1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: -259.82;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes e-b1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: -259.82;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes e-a1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 542.63;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes e-a1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 542.63;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}    </style>
+</svg>
