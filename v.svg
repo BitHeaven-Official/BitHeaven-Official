@@ -1,0 +1,300 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="55 40 145 170" width="94" height="140">
+		<g class="follow">
+			<polygon class="v-follow-c4" stroke="#DD07F4" points="110.21925 172.1205 98.88675 178.663 57.6255 98.593 80.11675 85.57675 102.6205 150.258 125.11675 59.59425 147.58175 46.62425"></polygon>
+			<polygon class="v-follow-c3" stroke="#DD07F4" points="155.21925 198.16175 110.25425 171.82425 147.58175 46.65175 192.58175 72.66675"></polygon>
+			<polygon class="v-follow-c2" stroke="#DD07F4" points="125.082 112.01925 147.58575 176.568 102.62075 150.258 80.117 85.603"></polygon>
+			<polygon class="v-follow-c1" stroke="#DD07F4" points="170.082 85.96025 125.117 59.6215 102.58575 150.55275 147.58575 176.56775"></polygon>
+			<polygon class="v-follow-b3" stroke="#4407F4" points="170.082 85.96025 125.117 59.6215 147.582 46.6515 192.582 72.6665"></polygon>
+			<polygon class="v-follow-b2" stroke="#4407F4" points="125.082 112.01925 102.5895 124.9305 57.62575 98.6205 80.117 85.603"></polygon>
+			<polygon class="v-follow-b1" stroke="#4407F4" points="143.886875 204.70475 102.589375 124.931 57.625625 98.621 98.921875 178.2885"></polygon>
+			<polygon class="v-follow-a" stroke="#4407F4" points="155.21925 198.16175 143.88675 204.70425 102.6255 124.6355 125.11675 111.618 147.6205 176.29925 170.11675 85.6355 192.58175 72.66675"></polygon>
+		</g>
+		<g class="start">
+			<polygon class="v-start-c4" stroke="#8A9EA3" points="110.21925 172.1205 98.88675 178.663 57.6255 98.593 80.11675 85.57675 102.6205 150.258 125.11675 59.59425 147.58175 46.62425"></polygon>
+			<polygon class="v-start-c3" stroke="#8A9EA3" points="155.21925 198.16175 110.25425 171.82425 147.58175 46.65175 192.58175 72.66675"></polygon>
+			<polygon class="v-start-c2" stroke="#8A9EA3" points="125.082 112.01925 147.58575 176.568 102.62075 150.258 80.117 85.603"></polygon>
+			<polygon class="v-start-c1" stroke="#8A9EA3" points="170.082 85.96025 125.117 59.6215 102.58575 150.55275 147.58575 176.56775"></polygon>
+			<polygon class="v-start-b3" stroke="#F9C99B" points="170.082 85.96025 125.117 59.6215 147.582 46.6515 192.582 72.6665"></polygon>
+			<polygon class="v-start-b2" stroke="#F9C99B" points="125.082 112.01925 102.5895 124.9305 57.62575 98.6205 80.117 85.603"></polygon>
+			<polygon class="v-start-b1" stroke="#F9C99B" points="143.886875 204.70475 102.589375 124.931 57.625625 98.621 98.921875 178.2885"></polygon>
+			<polygon class="v-start-a" stroke="#F9C99B" points="155.21925 198.16175 143.88675 204.70425 102.6255 124.6355 125.11675 111.618 147.6205 176.29925 170.11675 85.6355 192.58175 72.66675"></polygon>
+		</g>
+
+    <style>
+        .start *,
+        .follow * {
+            opacity: 0;
+        }
+        svg {
+		stroke-width: 2;
+		fill-rule: evenodd;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+		/* background: #101928;*/
+		fill: #0d1117;
+        }
+
+svg {
+  -webkit-animation: svg-fill 1000ms ease-in-out 1750ms both;
+          animation: svg-fill 1000ms ease-in-out 1750ms both;
+}
+svg .v-start-a,
+svg .v-follow-a,
+svg .v-start-c4,
+svg .v-follow-c4 {
+  stroke-dashoffset: 447.93;
+  stroke-dasharray: 447.93;
+  -webkit-animation: v-a cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: v-a cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .v-start-a {
+  -webkit-animation-duration: 1800ms;
+          animation-duration: 1800ms;
+  -webkit-animation-delay: 650ms;
+          animation-delay: 650ms;
+}
+svg .v-follow-a {
+  -webkit-animation-duration: 1500ms;
+          animation-duration: 1500ms;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+svg .v-start-c4 {
+  -webkit-animation-duration: 800ms;
+          animation-duration: 800ms;
+  -webkit-animation-delay: 1250ms;
+          animation-delay: 1250ms;
+}
+svg .v-follow-c4 {
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+}
+svg .v-start-b1,
+svg .v-follow-b1 {
+  stroke-dashoffset: 283.81;
+  stroke-dasharray: 283.81;
+  -webkit-animation: v-b1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: v-b1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .v-start-b2,
+svg .v-follow-b2,
+svg .v-start-b3,
+svg .v-follow-b3 {
+  stroke-dashoffset: 156.17;
+  stroke-dasharray: 156.17;
+  -webkit-animation: v-b2 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: v-b2 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .v-start-b1,
+svg .v-start-b2,
+svg .v-start-b3 {
+  -webkit-animation-duration: 800ms;
+          animation-duration: 800ms;
+  -webkit-animation-delay: 650ms;
+          animation-delay: 650ms;
+}
+svg .v-follow-b1,
+svg .v-follow-b2,
+svg .v-start-b3 {
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+svg .v-start-c1,
+svg .v-follow-c1 {
+  stroke-dashoffset: 291.13;
+  stroke-dasharray: 291.13;
+  -webkit-animation: v-c1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: v-c1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .v-start-c2,
+svg .v-follow-c2 {
+  stroke-dashoffset: 241.07;
+  stroke-dasharray: 241.07;
+  -webkit-animation: v-c2 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: v-c2 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .v-start-c3,
+svg .v-follow-c3 {
+  stroke-dashoffset: 365.65;
+  stroke-dasharray: 365.65;
+  -webkit-animation: v-c3 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: v-c3 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .v-start-c1,
+svg .v-start-c2 {
+  -webkit-animation-duration: 800ms;
+          animation-duration: 800ms;
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+}
+svg .v-follow-c1,
+svg .v-follow-c2 {
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 750ms;
+          animation-delay: 750ms;
+}
+
+@-webkit-keyframes v-c3 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 365.65;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes v-c3 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 365.65;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes v-c2 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 241.07;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes v-c2 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 241.07;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes v-c1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 291.13;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes v-c1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 291.13;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes v-b2 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 156.17;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes v-b2 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 156.17;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes v-b1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 283.81;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes v-b1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 283.81;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes v-a {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 447.93;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes v-a {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 447.93;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+</style>
+</svg>
