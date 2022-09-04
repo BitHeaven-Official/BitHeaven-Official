@@ -115,23 +115,7 @@ svg .t-follow-a {
           animation-delay: 500ms;
 }
 
-@-webkit-keyframes svg-fill {
-  0% {
-    fill: RGBA(16, 25, 40, 0);
-  }
-  100% {
-    fill: RGBA(16, 25, 40, 1);
-  }
-}
 
-@keyframes svg-fill {
-  0% {
-    fill: RGBA(16, 25, 40, 0);
-  }
-  100% {
-    fill: RGBA(16, 25, 40, 1);
-  }
-}
 @-webkit-keyframes t-c2 {
   0% {
     opacity: 0;
