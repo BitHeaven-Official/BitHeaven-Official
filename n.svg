@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="55 35 140 180" width="94" height="140">
+				<g class="follow">
+			<polygon class="n-follow-c5" stroke="#DD07F4" points="113.121125 157.059998 83.747375 112.330002 83.747375 174.8255 61.229875 187.65675 61.229875 83.753 83.747375 70.878 113.121125 117.849998 113.121125 53.79425 135.229875 41.0305 135.229875 144.79675"></polygon>
+			<polygon class="n-follow-c4" stroke="#DD07F4" points="61.23025 187.656375 114.98025 208.600006 137.5 195.759995 83.6230469 174.749727"></polygon>
+			<polygon class="n-follow-c3" stroke="#DD07F4" points="166.869875 74.7300034 113.120003 53.7999992 113.121125 117.849998 166.869875 138.789993"></polygon>
+			<polygon class="n-follow-c2" stroke="#DD07F4" points="188.898438 165.723633 135.149687 144.800003 113.121125 157.059998 166.869875 178.6815"></polygon>
+			<polygon class="n-follow-c1" stroke="#DD07F4" points="137.5 132.954412 83.75 112.330002 113.121125 157.059998 166.869875 178.679993"></polygon>
+			<polygon class="n-follow-b3" stroke="#4407F4" points="137.496125 91.8199997 114.979875 104.69225 61.229875 83.7535 83.747375 70.8785"></polygon>
+			<polygon class="n-follow-b2" stroke="#4407F4" points="61.23025 187.656375 114.98025 208.600006 114.98025 104.691375 61.23025 83.752625"></polygon>
+			<polygon class="n-follow-b1" stroke="#4407F4" points="166.869875 74.7300034 113.120003 53.79525 135.229875 41.03025 188.978625 61.969"></polygon>
+			<polygon class="n-follow-a" stroke="#4407F4" points="166.869875 178.679993 137.5 133.270004 137.496125 195.76425 114.979875 208.5955 114.979875 104.69175 137.496125 91.81675 166.869875 138.789993 166.869875 74.733 188.978625 61.96925 188.978625 165.7355"></polygon>
+			<polygon class="n-start-c5" stroke="#8A9EA3" points="113.121125 157.059998 83.747375 112.330002 83.747375 174.8255 61.229875 187.65675 61.229875 83.753 83.747375 70.878 113.121125 117.849998 113.121125 53.79425 135.229875 41.0305 135.229875 144.79675"></polygon>
+		</g>
+		<g class="start">
+			<polygon class="n-start-c4" stroke="#8A9EA3" points="61.23025 187.656375 114.98025 208.600006 137.5 195.759995 83.6230469 174.749727"></polygon>
+			<polygon class="n-start-c3" stroke="#8A9EA3" points="166.869875 74.7300034 113.120003 53.7999992 113.121125 117.849998 166.869875 138.789993"></polygon>
+			<polygon class="n-start-c2" stroke="#8A9EA3" points="188.898438 165.723633 135.149687 144.800003 113.121125 157.059998 166.869875 178.6815"></polygon>
+			<polygon class="n-start-c1" stroke="#8A9EA3" points="137.5 132.954412 83.75 112.330002 113.121125 157.059998 166.869875 178.679993"></polygon>
+			<polygon class="n-start-b3" stroke="#F9C99B" points="137.496125 91.8199997 114.979875 104.69225 61.229875 83.7535 83.747375 70.8785"></polygon>
+			<polygon class="n-start-b2" stroke="#F9C99B" points="61.23025 187.656375 114.98025 208.600006 114.98025 104.691375 61.23025 83.752625"></polygon>
+			<polygon class="n-start-b1" stroke="#F9C99B" points="166.869875 74.7300034 113.120003 53.79525 135.229875 41.03025 188.978625 61.969"></polygon>
+			<polygon class="n-start-a" stroke="#F9C99B" points="166.869875 178.679993 137.5 133.270004 137.496125 195.76425 114.979875 208.5955 114.979875 104.69175 137.496125 91.81675 166.869875 138.789993 166.869875 74.733 188.978625 61.96925 188.978625 165.7355"></polygon>
+		</g>
+
+    <style>
+        .start *,
+        .follow * {
+            opacity: 0;
+        }
+        svg {
+		stroke-width: 2;
+		fill-rule: evenodd;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+		/* background: #101928;*/
+		fill: #0d1117;
+        }
+
+svg {
+  -webkit-animation: svg-fill 1000ms ease-in-out 1750ms both;
+          animation: svg-fill 1000ms ease-in-out 1750ms both;
+}
+svg .n-start-a,
+svg .n-follow-a {
+  stroke-dashoffset: 546.7;
+  stroke-dasharray: 546.7;
+  -webkit-animation: n-a cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: n-a cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .n-start-a {
+  -webkit-animation-duration: 1800ms;
+          animation-duration: 1800ms;
+  -webkit-animation-delay: 650ms;
+          animation-delay: 650ms;
+}
+svg .n-follow-a {
+  -webkit-animation-duration: 1500ms;
+          animation-duration: 1500ms;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+svg .n-start-b1,
+svg .n-follow-b1,
+svg .n-start-b3,
+svg .n-follow-b3,
+svg .n-start-c2,
+svg .n-follow-c2 {
+  stroke-dashoffset: 166.43;
+  stroke-dasharray: 166.43;
+  -webkit-animation: n-b1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: n-b1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .n-start-b2,
+svg .n-follow-b2 {
+  stroke-dashoffset: 323.19;
+  stroke-dasharray: 323.19;
+  -webkit-animation: n-b1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: n-b1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg polygon[class^=n-start-b] {
+  -webkit-animation-duration: 800ms;
+          animation-duration: 800ms;
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+}
+svg polygon[class^=n-follow-b] {
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 750ms;
+          animation-delay: 750ms;
+}
+svg .n-start-c1,
+svg .n-follow-c1 {
+  stroke-dashoffset: 223.37;
+  stroke-dasharray: 223.37;
+  -webkit-animation: n-c1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: n-c1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .n-start-c3,
+svg .n-follow-c3 {
+  stroke-dashoffset: 243.48;
+  stroke-dasharray: 243.48;
+  -webkit-animation: n-c3 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: n-c3 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .n-start-c4,
+svg .n-follow-c4 {
+  stroke-dashoffset: 167.29;
+  stroke-dasharray: 167.29;
+  -webkit-animation: n-c4 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: n-c4 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg polygon[class^=n-start-c] {
+  -webkit-animation-duration: 800ms;
+          animation-duration: 800ms;
+  -webkit-animation-delay: 1250ms;
+          animation-delay: 1250ms;
+}
+svg polygon[class^=n-follow-c] {
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+}
+
+@-webkit-keyframes n-c3 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 243.48;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes n-c3 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 243.48;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes n-c1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 223.37;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes n-c1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 223.37;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes n-b1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 166.43;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes n-b1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 166.43;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes n-a {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 546.7;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes n-a {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 546.7;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+</style>
+</svg>
