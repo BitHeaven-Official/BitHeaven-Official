@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="85 50 80 150" width="94" height="140">
+		<g class="follow">
+			<polygon class="i-follow-c2" stroke="#DD07F4" points="136.658875 196.711 91.625125 170.696 114.126375 157.62475 159.150125 183.6935"></polygon>
+			<polygon class="i-follow-c1" stroke="#DD07F4" points="91.6299973 170.639999 91.625125 66.696 114.126375 53.62475 114.126375 157.570312"></polygon>
+			<polygon class="i-follow-b2" stroke="#4407F4" points="136.658875 92.711 91.625125 66.696 114.126375 53.62475 159.150125 79.6935"></polygon>
+			<polygon class="i-follow-b1" stroke="#4407F4" points="136.658875 92.711 91.625125 66.696 91.635125 170.372656 136.658875 196.441406"></polygon>
+			<polygon class="i-follow-a" stroke="#4407F4" points="136.652875 196.705125 136.649125 92.763875 159.150375 79.693875 159.152875 163.026375 159.130375 183.695125"></polygon>
+		</g>
+		<g class="start">
+			<polygon class="i-start-c2" stroke="#8A9EA3" points="136.658875 196.711 91.625125 170.696 114.126375 157.62475 159.150125 183.6935"></polygon>
+			<polygon class="i-start-c1" stroke="#8A9EA3" points="91.6299973 170.639999 91.625125 66.696 114.126375 53.62475 114.126375 157.570312"></polygon>
+			<polygon class="i-start-b2" stroke="#F9C99B" points="136.658875 92.711 91.625125 66.696 114.126375 53.62475 159.150125 79.6935"></polygon>
+			<polygon class="i-start-b1" stroke="#F9C99B" points="136.658875 92.711 91.625125 66.696 91.635125 170.372656 136.658875 196.441406"></polygon>
+			<polygon class="i-start-a" stroke="#F9C99B" points="136.652875 196.705125 136.649125 92.763875 159.150375 79.693875 159.152875 163.026375 159.130375 183.695125"></polygon>
+		</g>
+
+    <style>
+        .start *,
+        .follow * {
+            opacity: 0;
+        }
+        svg {
+		stroke-width: 2;
+		fill-rule: evenodd;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+		/* background: #101928;*/
+		fill: #0d1117;
+        }
+
+svg {
+  -webkit-animation: svg-fill 1000ms ease-in-out 1750ms both;
+          animation: svg-fill 1000ms ease-in-out 1750ms both;
+}
+svg .i-start-a,
+svg .i-follow-a {
+  stroke-dashoffset: 259.94;
+  stroke-dasharray: 259.94;
+  -webkit-animation: i-a cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: i-a cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .i-start-a {
+  -webkit-animation-duration: 1800ms;
+          animation-duration: 1800ms;
+  -webkit-animation-delay: 650ms;
+          animation-delay: 650ms;
+}
+svg .i-follow-a {
+  -webkit-animation-duration: 1500ms;
+          animation-duration: 1500ms;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+svg .i-start-b1,
+svg .i-follow-b1 {
+  stroke-dashoffset: 311.44;
+  stroke-dasharray: 311.44;
+  -webkit-animation: i-b1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: i-b1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .i-start-b2,
+svg .i-follow-b2,
+svg .i-start-c2,
+svg .i-follow-c2 {
+  stroke-dashoffset: 156.04;
+  stroke-dasharray: 156.04;
+  -webkit-animation: i-b2 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: i-b2 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .i-start-b1,
+svg .i-start-b2 {
+  -webkit-animation-duration: 800ms;
+          animation-duration: 800ms;
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+}
+svg .i-follow-b1,
+svg .i-follow-b2 {
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 750ms;
+          animation-delay: 750ms;
+}
+svg .i-start-c1,
+svg .i-follow-c1 {
+  stroke-dashoffset: 259.93;
+  stroke-dasharray: 259.93;
+  -webkit-animation: i-c1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: i-c1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .i-start-c1,
+svg .i-start-c2 {
+  -webkit-animation-duration: 800ms;
+          animation-duration: 800ms;
+  -webkit-animation-delay: 1150ms;
+          animation-delay: 1150ms;
+}
+svg .i-follow-c1,
+svg .i-follow-c2 {
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+}
+
+@-webkit-keyframes i-c2 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 311.97;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes i-c2 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 311.97;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes i-c1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 259.93;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes i-c1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 259.93;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes i-b2 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: -156.04;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes i-b2 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: -156.04;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes i-b1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 311.44;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes i-b1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 311.44;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes i-a {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 259.94;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes i-a {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 259.94;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+</style>
+</svg>
