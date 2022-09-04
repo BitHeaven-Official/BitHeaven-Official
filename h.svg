@@ -1,0 +1,271 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="65 50 120 150" width="94" height="140">
+				<g class="follow">
+			<polygon class="h-follow-c6" stroke="#DD07F4" points="114 157 114 132 92 144 92 170 69 183 69 79 92 66 92 118 114 105 114 54 137 41 137 145"></polygon>
+			<polygon class="h-follow-c5" stroke="#DD07F4" points="159 183 113.908875 157.094875 114 54 158.996375 80"></polygon>
+			<polygon class="h-follow-c4" stroke="#DD07F4" points="159 183 113.908875 157.094875 137 145 182 171"></polygon>
+			<polygon class="h-follow-c3" stroke="#DD07F4" points="158.997375 131 137 144 92 118 114 105"></polygon>
+			<polygon class="h-follow-c2" stroke="#DD07F4" points="158.997375 158 137 170 92 144 114 131"></polygon>
+			<polygon class="h-follow-c1" stroke="#DD07F4" points="113.997375 209 69 183.572 91.7998047 170.055664 137 196"></polygon>
+			<polygon class="h-follow-b3" stroke="#4407F4" points="182 66 158.996125 80 114 54 137 41"></polygon>
+			<polygon class="h-follow-b2" stroke="#4407F4" points="137 92 114 105 68.99675 79 92 66"></polygon>
+			<polygon class="h-follow-b1" stroke="#4407F4" points="113.997375 209 69 183.572 69 79 114 105"></polygon>
+			<polygon class="h-follow-a" stroke="#F9C99B" points="159 183 159 158 137 170 137 196 114 209 114 105 137 92 137 144 159 131 159 80 182 66 182 171"></polygon>
+		</g>
+		<g class="start">
+			<polygon class="h-start-c6" stroke="#8A9EA3" points="114 157 114 132 92 144 92 170 69 183 69 79 92 66 92 118 114 105 114 54 137 41 137 145"></polygon>
+			<polygon class="h-start-c5" stroke="#8A9EA3" points="159 183 113.908875 157.094875 114 54 158.996375 80"></polygon>
+			<polygon class="h-start-c4" stroke="#8A9EA3" points="159 183 113.908875 157.094875 137 145 182 171"></polygon>
+			<polygon class="h-start-c3" stroke="#8A9EA3" points="158.997375 131 137 144 92 118 114 105"></polygon>
+			<polygon class="h-start-c2" stroke="#8A9EA3" points="158.997375 158 137 170 92 144 114 131"></polygon>
+			<polygon class="h-start-c1" stroke="#8A9EA3" points="113.997375 209 69 183.572 91.7998047 170.055664 137 196"></polygon>
+			<polygon class="h-start-b3" stroke="#F9C99B" points="182 66 158.996125 80 114 54 137 41"></polygon>
+			<polygon class="h-start-b2" stroke="#F9C99B" points="137 92 114 105 68.99675 79 92 66"></polygon>
+			<polygon class="h-start-b1" stroke="#F9C99B" points="113.997375 209 69 183.572 69 79 114 105"></polygon>
+			<polygon class="h-start-a" stroke="#F9C99B" points="159 183 159 158 137 170 137 196 114 209 114 105 137 92 137 144 159 131 159 80 182 66 182 171"></polygon>
+		</g>
+
+    <style>
+        .start *,
+        .follow * {
+            opacity: 0;
+        }
+        svg {
+		stroke-width: 2;
+		fill-rule: evenodd;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+		/* background: #101928;*/
+		fill: #0d1117;
+        }
+
+svg {
+  -webkit-animation: svg-fill 1000ms ease-in-out 1750ms both;
+          animation: svg-fill 1000ms ease-in-out 1750ms both;
+}
+svg .h-start-a,
+svg .h-follow-a,
+svg .h-start-c6,
+svg .h-follow-c6 {
+  stroke-dashoffset: 519.32;
+  stroke-dasharray: 519.32;
+  -webkit-animation: h-a cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: h-a cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .h-start-a {
+  -webkit-animation-duration: 1800ms;
+          animation-duration: 1800ms;
+  -webkit-animation-delay: 650ms;
+          animation-delay: 650ms;
+}
+svg .h-follow-a {
+  -webkit-animation-duration: 1500ms;
+          animation-duration: 1500ms;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+svg .h-start-b1,
+svg .h-follow-b1 {
+  stroke-dashoffset: 312.23;
+  stroke-dasharray: 312.23;
+  -webkit-animation: h-b1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: h-b1 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .h-start-b2,
+svg .h-follow-b2,
+svg .h-start-b3,
+svg .h-follow-b3,
+svg .h-start-c1,
+svg .h-follow-c1 {
+  stroke-dashoffset: 156.79;
+  stroke-dasharray: 156.79;
+  -webkit-animation: h-b2 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: h-b2 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg polygon[class^=h-start-b] {
+  -webkit-animation-duration: 800ms;
+          animation-duration: 800ms;
+  -webkit-animation-delay: 650ms;
+          animation-delay: 650ms;
+}
+svg polygon[class^=h-follow-b] {
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+svg .h-start-c2,
+svg .h-follow-c2,
+svg .h-start-c3,
+svg .h-follow-c3,
+svg .h-start-c4,
+svg .h-follow-c4 {
+  stroke-dashoffset: 156;
+  stroke-dasharray: 156;
+  -webkit-animation: h-c2 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: h-c2 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg .h-start-c5,
+svg .h-follow-c5 {
+  stroke-dashoffset: 310.07;
+  stroke-dasharray: 310.07;
+  -webkit-animation: h-c5 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+          animation: h-c5 cubic-bezier(0, 0.47, 0.1, 0.99) forwards;
+}
+svg polygon[class^=h-start-c]:nth-child(-n+6) {
+  -webkit-animation-duration: 800ms;
+          animation-duration: 800ms;
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+}
+svg polygon[class^=h-follow-c]:nth-child(-n+6) {
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 750ms;
+          animation-delay: 750ms;
+}
+svg .h-start-c6 {
+  -webkit-animation-duration: 800ms;
+          animation-duration: 800ms;
+  -webkit-animation-delay: 1150ms;
+          animation-delay: 1150ms;
+}
+svg .h-follow-c6 {
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+}
+
+@-webkit-keyframes h-c5 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 310.07;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes h-c5 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 310.07;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes h-c2 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 155.06;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes h-c2 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 155.06;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes h-b2 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 156.79;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes h-b2 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 156.79;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes h-b1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 312.23;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes h-b1 {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 312.23;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes h-a {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 519.32;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes h-a {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 519.32;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+</style>
+</svg>
