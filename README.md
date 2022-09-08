@@ -25,7 +25,7 @@
 ![Figma](https://img.shields.io/badge/Figma-Linux-F24E1E?style=for-the-badge&logo=Figma&labelColor=0d1117)
 
 #### Server
-![NGINX](https://img.shields.io/badge/NGINX-%3E=1.18-009639?style=for-the-badge&logo=NGINX&labelColor=0d1117)
+![NGINX](https://img.shields.io/badge/NGINX-%3E=1.18-009639?style=for-the-badge&logo=NGINX&logoColor=009639&labelColor=0d1117)
 ![MySQL](https://img.shields.io/badge/MySQL-%3E=8.0-4479A1?style=for-the-badge&logo=MySQL&labelColor=0d1117)
 ![Docker](https://img.shields.io/badge/Docker-%3E=20.0-2496ED?style=for-the-badge&logo=Docker&labelColor=0d1117)
 
