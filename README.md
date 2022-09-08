@@ -12,12 +12,12 @@
 #### Backend
 ![PHP](https://img.shields.io/badge/PHP-%3E=7.4-777BB4?style=for-the-badge&logo=php&labelColor=0d1117)
 ![C++](https://img.shields.io/badge/C++-%3E=20-00599C?style=for-the-badge&logo=C%2B%2B&labelColor=0d1117)
-![C](https://img.shields.io/badge/C-%3E=11-A8B9CC?style=for-the-badge&logo=C&labelColor=0d1117)
+![C](https://img.shields.io/badge/C-%3E=11-A8B9CC?style=for-the-badge&logo=C&logoColor=A8B9CC&labelColor=0d1117)
 ![Python](https://img.shields.io/badge/Python-%3E=3.8-3776AB?style=for-the-badge&logo=python&labelColor=0d1117)
 
 #### Frontend
 ![HTML5](https://img.shields.io/badge/HTML-5-E34F26?style=for-the-badge&logo=html5&labelColor=0d1117)
-![CSS3](https://img.shields.io/badge/CSS-3-1572B6?style=for-the-badge&logo=css3&labelColor=0d1117)
+![CSS3](https://img.shields.io/badge/CSS-3-1572B6?style=for-the-badge&logo=css3&logoColor=1572B6&labelColor=0d1117)
 ![ES6](https://img.shields.io/badge/ES-6-F7DF1E?style=for-the-badge&logo=JavaScript&labelColor=0d1117)
 
 #### Design / 3D
