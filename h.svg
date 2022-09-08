@@ -18,10 +18,10 @@
 			<polygon class="h-start-c3" stroke="#8A9EA3" points="158.997375 131 137 144 92 118 114 105"></polygon>
 			<polygon class="h-start-c2" stroke="#8A9EA3" points="158.997375 158 137 170 92 144 114 131"></polygon>
 			<polygon class="h-start-c1" stroke="#8A9EA3" points="113.997375 209 69 183.572 91.7998047 170.055664 137 196"></polygon>
-			<polygon class="h-start-b3" stroke="#F9C99B" points="182 66 158.996125 80 114 54 137 41"></polygon>
-			<polygon class="h-start-b2" stroke="#F9C99B" points="137 92 114 105 68.99675 79 92 66"></polygon>
-			<polygon class="h-start-b1" stroke="#F9C99B" points="113.997375 209 69 183.572 69 79 114 105"></polygon>
-			<polygon class="h-start-a" stroke="#F9C99B" points="159 183 159 158 137 170 137 196 114 209 114 105 137 92 137 144 159 131 159 80 182 66 182 171"></polygon>
+			<polygon class="h-start-b3" stroke="#c9d1d9" points="182 66 158.996125 80 114 54 137 41"></polygon>
+			<polygon class="h-start-b2" stroke="#c9d1d9" points="137 92 114 105 68.99675 79 92 66"></polygon>
+			<polygon class="h-start-b1" stroke="#c9d1d9" points="113.997375 209 69 183.572 69 79 114 105"></polygon>
+			<polygon class="h-start-a" stroke="#c9d1d9" points="159 183 159 158 137 170 137 196 114 209 114 105 137 92 137 144 159 131 159 80 182 66 182 171"></polygon>
 		</g>
 
     <style>
