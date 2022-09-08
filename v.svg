@@ -14,10 +14,10 @@
 			<polygon class="v-start-c3" stroke="#8A9EA3" points="155.21925 198.16175 110.25425 171.82425 147.58175 46.65175 192.58175 72.66675"></polygon>
 			<polygon class="v-start-c2" stroke="#8A9EA3" points="125.082 112.01925 147.58575 176.568 102.62075 150.258 80.117 85.603"></polygon>
 			<polygon class="v-start-c1" stroke="#8A9EA3" points="170.082 85.96025 125.117 59.6215 102.58575 150.55275 147.58575 176.56775"></polygon>
-			<polygon class="v-start-b3" stroke="#F9C99B" points="170.082 85.96025 125.117 59.6215 147.582 46.6515 192.582 72.6665"></polygon>
-			<polygon class="v-start-b2" stroke="#F9C99B" points="125.082 112.01925 102.5895 124.9305 57.62575 98.6205 80.117 85.603"></polygon>
-			<polygon class="v-start-b1" stroke="#F9C99B" points="143.886875 204.70475 102.589375 124.931 57.625625 98.621 98.921875 178.2885"></polygon>
-			<polygon class="v-start-a" stroke="#F9C99B" points="155.21925 198.16175 143.88675 204.70425 102.6255 124.6355 125.11675 111.618 147.6205 176.29925 170.11675 85.6355 192.58175 72.66675"></polygon>
+			<polygon class="v-start-b3" stroke="#c9d1d9" points="170.082 85.96025 125.117 59.6215 147.582 46.6515 192.582 72.6665"></polygon>
+			<polygon class="v-start-b2" stroke="#c9d1d9" points="125.082 112.01925 102.5895 124.9305 57.62575 98.6205 80.117 85.603"></polygon>
+			<polygon class="v-start-b1" stroke="#c9d1d9" points="143.886875 204.70475 102.589375 124.931 57.625625 98.621 98.921875 178.2885"></polygon>
+			<polygon class="v-start-a" stroke="#c9d1d9" points="155.21925 198.16175 143.88675 204.70425 102.6255 124.6355 125.11675 111.618 147.6205 176.29925 170.11675 85.6355 192.58175 72.66675"></polygon>
 		</g>
 
     <style>
