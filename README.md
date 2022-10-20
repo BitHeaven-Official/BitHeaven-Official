@@ -7,7 +7,7 @@
 ## Skills and Experience
 #### System
 ![Linux](https://img.shields.io/badge/Linux-%3E=4.15-FCC624?style=for-the-badge&logo=Linux&labelColor=0d1117)
-![Android](https://img.shields.io/badge/Android-%3E=10-3DDC84?style=for-the-badge&logo=Android&labelColor=0d1117)
+![Android](https://img.shields.io/badge/Android-%3E=8-3DDC84?style=for-the-badge&logo=Android&labelColor=0d1117)
 
 #### Backend
 ![PHP](https://img.shields.io/badge/PHP-%3E=7.4-777BB4?style=for-the-badge&logo=php&labelColor=0d1117)
